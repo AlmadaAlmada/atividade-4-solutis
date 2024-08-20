@@ -1,4 +1,4 @@
-package mundoAnimal;
+package mundo.animal;
 
 public abstract class AnimalMarinhoAB extends AnimalAB {
 

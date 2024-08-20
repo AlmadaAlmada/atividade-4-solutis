@@ -1,4 +1,4 @@
-package mundoAnimal;
+package mundo.animal;
 
 public abstract class AnimalTerrestreAB extends AnimalAB {
     protected int quantidadePatas;

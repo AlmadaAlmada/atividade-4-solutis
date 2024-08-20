@@ -1,4 +1,4 @@
-package mundoAnimal;
+package mundo.animal;
 
 import java.util.ArrayList;
 import java.util.List;

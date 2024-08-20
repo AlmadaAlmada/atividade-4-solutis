@@ -1,4 +1,4 @@
-package mundoAnimal;
+package mundo.animal;
 
 public class Gato extends AnimalTerrestreAB {
 
