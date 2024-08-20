@@ -9,7 +9,7 @@ public class Peixe extends AnimalMarinhoAB {
     @Override
     public void comer() {
         comidaIngerida += 2;
-        System.out.println("O peixe comeu 2 unidades de comida.");
+        System.out.println("O peixe comeu 2 g de ração");
     }
 
     @Override
@@ -20,13 +20,13 @@ public class Peixe extends AnimalMarinhoAB {
     @Override
     public void dormir() {
         horasDormidas += 6;
-        System.out.println("O peixe dormiu 6 horas.");
+        System.out.println("O peixe dormiu 6 horas");
     }
 
     @Override
     public void nadar() {
         distanciaNadada += 15;
-        System.out.println("O peixe nadou 15 unidades de distância.");
+        System.out.println("O peixe nadou 2 mts");
     }
 }
 

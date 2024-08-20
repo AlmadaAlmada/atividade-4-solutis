@@ -9,19 +9,19 @@ public class Cachorro extends AnimalTerrestreAB {
     @Override
     public void comer() {
         comidaIngerida += 5;
-        System.out.println("O cachorro comeu 5 unidades de comida.");
+        System.out.println("O cachorro comeu 200 g de ração");
     }
 
     @Override
     public void moverse() {
         caminhoPercorrido += 10;
-        System.out.println("O cachorro se moveu 10 unidades de distância.");
+        System.out.println("O cachorro andou 10 mts");
     }
 
     @Override
     public void dormir() {
         horasDormidas += 8;
-        System.out.println("O cachorro dormiu 8 horas.");
+        System.out.println("O cachorro dormiu 8 horas");
     }
 }
 

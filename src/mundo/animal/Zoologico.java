@@ -8,6 +8,7 @@ public class Zoologico {
     public static void main(String[] args) {
 
         Cachorro cachorro = new Cachorro("Rosalia", "Cachorro", 5, "Doméstico", 0.8, 25.0, 4);
+        Elefante elefante = new Elefante("Dumbo", "Elefante", 4, "Selvagem", 5, 10000.00, 4);
         Gato gato = new Gato("Ze", "Gato", 9,"Doméstico", 0.3, 15.00, 4);
         Leao leao = new Leao("Taylor Swift", "Leao", 15,"Selvagem", 2.0, 200.00, 4);
         Peixe peixe = new Peixe("Betinho", "Peixe", 2,"Doméstico", 0.1, 0.4);
@@ -15,6 +16,7 @@ public class Zoologico {
 
         List<AnimalAB> animais = new ArrayList<>();
         animais.add(cachorro);
+        animais.add(elefante);
         animais.add(gato);
         animais.add(leao);
         animais.add(peixe);

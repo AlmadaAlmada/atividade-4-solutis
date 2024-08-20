@@ -9,19 +9,19 @@ public class Elefante extends AnimalTerrestreAB {
     @Override
     public void comer() {
         comidaIngerida += 50;
-        System.out.println("O elefante comeu 50 unidades de comida.");
+        System.out.println("O elefante comeu 3 kl de folhas");
     }
 
     @Override
     public void moverse() {
         caminhoPercorrido += 20;
-        System.out.println("O elefante se moveu 20 unidades de distância.");
+        System.out.println("O elefante se moveu 20 mts");
     }
 
     @Override
     public void dormir() {
         horasDormidas += 4;
-        System.out.println("O elefante dormiu 4 horas.");
+        System.out.println("O elefante dormiu 4 horas");
     }
 }
 

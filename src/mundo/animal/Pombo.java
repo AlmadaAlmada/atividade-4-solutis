@@ -9,7 +9,7 @@ public class Pombo extends AnimalVoadorAB {
     @Override
     public void comer() {
         comidaIngerida += 1;
-        System.out.println("O pombo comeu 1 unidade de comida.");
+        System.out.println("O pombo comeu 20 g de sementes");
     }
 
     @Override
@@ -20,13 +20,13 @@ public class Pombo extends AnimalVoadorAB {
     @Override
     public void dormir() {
         horasDormidas += 8;
-        System.out.println("O pombo dormiu 8 horas.");
+        System.out.println("O pombo dormiu 8 horas");
     }
 
     @Override
     public void voar() {
         distanciaDoVoo += 20;
-        System.out.println("O pombo voou 20 unidades de distância.");
+        System.out.println("O pombo voou 20 mts");
     }
 }
 

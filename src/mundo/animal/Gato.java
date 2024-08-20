@@ -9,18 +9,18 @@ public class Gato extends AnimalTerrestreAB {
     @Override
     public void comer() {
         comidaIngerida += 3;
-        System.out.println("O gato comeu 3 unidades de comida.");
+        System.out.println("O gato comeu 100 g de ração");
     }
 
     @Override
     public void moverse() {
         caminhoPercorrido += 5;
-        System.out.println("O gato se moveu 5 unidades de distância.");
+        System.out.println("O gato se moveu 5 mts");
     }
 
     @Override
     public void dormir() {
         horasDormidas += 12;
-        System.out.println("O gato dormiu 12 horas.");
+        System.out.println("O gato dormiu 12 horas");
     }
 }
