@@ -84,3 +84,6 @@ Em seguida, o programa exibe as informações detalhadas de cada animal, incluin
 |
 |- README.md                  <- Arquivo de documentação do projeto.
 ```
+## Licença
+
+Projeto desenvolvido para fins educacionais
